@@ -1,3 +1,5 @@
+-- fixed
+
 local Lighting = game:GetService("Lighting")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
@@ -905,7 +907,6 @@ local Library = {
 	MinimizeKey = Enum.KeyCode.LeftControl,
 }
 
-local LanguageManager = {
 local LanguageManager = {
 	CurrentLanguage = "English",
 	Translations = {
@@ -11577,3 +11578,4 @@ task.spawn(function()
 	end)
 end)
 return Library, SaveManager, InterfaceManager, Mobile
+
